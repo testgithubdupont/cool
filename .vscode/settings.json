@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "appService.defaultWebAppToDeploy": "/subscriptions/9cb9f962-dcf5-447a-9210-6a7d690b3bb0/AppServices/subscriptions/9cb9f962-dcf5-447a-9210-6a7d690b3bb0/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/QuizzAppMaster",
+    "appService.deploySubpath": "."
 }
