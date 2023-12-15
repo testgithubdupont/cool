@@ -1,17 +1,17 @@
-import drawIcon from "./canvas.js"
-import fakeWait from "./fake.js";
+// import drawIcon from "./canvas.js"
+// import fakeWait from "./fake.js";
 
-const question = document.getElementById('question');
-const choices = Array.from(document.getElementsByClassName('choice-text'));
-const progressText = document.getElementById('progressText');
-const scoreText = document.getElementById('score');
-const loader = document.getElementById('loader');
-const game = document.getElementById('quizz');
-let currentQuestion = {};
-let acceptingAnswers = false;
-let score = 0;
-let questionCounter = 0;
-let availableQuestions = [];
+// const question = document.getElementById('question');
+// const choices = Array.from(document.getElementsByClassName('choice-text'));
+// const progressText = document.getElementById('progressText');
+// const scoreText = document.getElementById('score');
+// const loader = document.getElementById('loader');
+// const game = document.getElementById('quizz');
+// let currentQuestion = {};
+// let acceptingAnswers = false;
+// let score = 0;
+// let questionCounter = 0;
+// let availableQuestions = [];
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
